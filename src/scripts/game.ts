@@ -14,6 +14,10 @@ const config = {
     width: DEFAULT_WIDTH,
     height: DEFAULT_HEIGHT
   },
+render: {
+  pixelArt: true
+},
+
   scene: [MainScene],
   physics: {
     default: 'arcade',
